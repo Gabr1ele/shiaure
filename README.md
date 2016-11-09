@@ -3,7 +3,7 @@
 Plug.dj kambarių botas Šiaurė. Sukurtas bendruomenei - https://plug.dj/%C5%A1iaur%C4%97 
 Už idėją dėkojame BasicBot kūrėjams.
 
-								//Ruošiama informacija//
+//Ruošiama informacija//
 
 Copyright 2016 Gabr1ele
 Kodo modifikacijos (taip pat ir išsišakojimai) leidžiamos tik asmeniniui naudojimui.
