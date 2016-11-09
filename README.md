@@ -6,4 +6,5 @@ Už idėją dėkojame BasicBot kūrėjams.
 //Ruošiama informacija//
 
 Copyright 2016 Gabr1ele
-Kodo modifikacijos (taip pat ir išsišakojimai) leidžiamos tik asmeniniui naudojimui. Gaunamas pelnas, taip pat ir paramos turėtų būti perleisti teisėtam savininkui.
+Kodo modifikacijos (taip pat ir išsišakojimai) leidžiamos tik asmeniniui naudojimui.
+Gaunamas pelnas, taip pat ir paramos turėtų būti perleisti teisėtam savininkui.
