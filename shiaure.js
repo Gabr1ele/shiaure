@@ -1,3 +1,10 @@
+**/
+ *Copyright 2016 Gabr1ele
+ *Kodo modifikacijos leidžiamos tik asmeniniui naudojimui.
+ *Gaunamas pelnas turėtų būti perleistas teisėtam savininkui.
+ */
+
+
 (function () {
 
     /*window.onerror = function() {
