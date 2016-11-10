@@ -95,7 +95,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://raw.githubusercontent.com/Gabr1ele/shiaure/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/Gabr1ele/shiaure/lang/langIndex.json", function (json) {
             var link = Shiaure.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -235,8 +235,8 @@
         status: false,
         name: "Shiaure",
         loggedInID: null,
-        scriptLink: "https://raw.githubusercontent.com/Gabr1ele/shiaure/shiaure.js",
-        cmdLink: "https://raw.githubusercontent.com/Gabr1ele/shiaure/commands.md",
+        scriptLink: "https://rawgit.com/Gabr1ele/shiaure/shiaure.js",
+        cmdLink: "https://rawgit.com/Gabr1ele/shiaure/commands.md",
         chatLink: "https://rawgit.com/Gabr1ele/shiaure/lang/lt.json",
         chat: null,
         loadChat: loadChat,
@@ -245,8 +245,8 @@
         settings: {
             botName: "Shiaure",
             language: "lietuvių",
-            chatLink: "https://raw.githubusercontent.com/Gabr1ele/shiaure/lang/lt.json",
-            scriptLink: "https://raw.githubusercontent.com/Gabr1ele/shiaure/shiaure.js",
+            chatLink: "https://rawgit.com/Gabr1ele/shiaure/lang/lt.json",
+            scriptLink: "https://rawgit.com/Gabr1ele/shiaure/shiaure.js",
             roomLock: false, // Reikia papildinio perkraunant script'a.
             startupCap: 20, // 1-200
             startupVolume: 10, // 0-100
@@ -302,9 +302,9 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://raw.githubusercontent.com/Gabr1ele/shiaure/blacklists/NSFWlist.json",
-                OP: "https://raw.githubusercontent.com/Gabr1ele/shiaure/blacklists/OPlist.json",
-                BANNED: "https://raw.githubusercontent.com/Gabr1ele/shiaure/blacklists/BANNEDlist.json"
+                NSFW: "https://rawgit.com/Gabr1ele/shiaure/blacklists/NSFWlist.json",
+                OP: "https://rawgit.com/Gabr1ele/shiaure/blacklists/OPlist.json",
+                BANNED: "https://rawgit.com/Gabr1ele/shiaure/blacklists/BANNEDlist.json"
             }
         },
         room: {
@@ -1181,7 +1181,7 @@
                     API.sendChat(subChat(Shiaure.chat.adfly, {name: chat.un}));
                     return true;
                 }
-                if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
+                if (msg.indexOf('autojoin nebuvo įjungtas') > 0 || msg.indexOf('AFK žinutė neįjungta') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin išjungtas') > 0 || msg.indexOf('AFK žinutė išjungta') > 0) {
                     API.moderateDeleteChat(chat.cid);
                     return true;
                 }
@@ -1278,7 +1278,7 @@
                 Shiaure.room.roomstats.chatmessages++;
             },
             spam: [
-                'eee', 'ee', 'eiii', 'alioo', 'eiknx', 'supis', 'pizdink', 'pyzdint', 'pyzdink', 'pizda',
+                'eee', 'kalė', 'eiii', 'alioo', 'eiknx', 'supis', 'pizdink', 'pyzdint', 'pyzdink', 'pizda',
                 'plug_dj', 'mockrusys', 'užpis', 'plug.dj/', 'uzpis', 'zajebal', 'jibala', 'zajabys', 'achujena', 'achujel', 'xuj',
                 'močkrušys', 'jabala', 'smaukyk', 'smaukyt', 'dalbajob', 'suka', 'kurva', 'kurwa', 'axujena', 'axujel', 'čiulpk', 'ciulpk', 'bybi', 'bybys', 'bbd', 'pisau', 'pisk',
                 'krw', 'blt', 'blet', 'pyderas', 'pz', 'pzd', 'pzz', 'nx', 'naxui', 'naxuj', 'sadfgf'
